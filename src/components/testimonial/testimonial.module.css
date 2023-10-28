@@ -1,0 +1,79 @@
+.testimonial {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #fff;
+}
+
+.testContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.testSectionHead {
+    width: 45%;
+    margin: auto;
+}
+
+.testCards {
+    margin-top: 50px;
+    position: relative;
+}
+
+.testCardsContainer {
+    display: flex;
+    gap: 30px;
+}
+
+.testCardsLArrow,
+.testCardsRArrow {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #ebebeb;
+    background-color: #fff;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    -webkit-box-shadow: 0 11px 24px 0 rgb(0 0 0 / 9%);
+    box-shadow: 0 11px 24px 0 rgb(0 0 0 / 9%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+
+.testCardsLArrow:hover,
+.testCardsRArrow:hover {
+    background-color: var(--sec-color);
+    border-color: var(--sec-color);
+}
+
+.testAngleLeft,
+.testAngleRight {
+    color: #b5b5b5;
+    font-size: 20px;
+}
+
+.testCardsLArrow:hover .testAngleLeft,
+.testCardsRArrow:hover .testAngleRight {
+    color: #fff;
+}
+
+.testCardsLArrow {
+    position: absolute;
+    top: 40%;
+    left: -22px;
+}
+
+.testCardsRArrow {
+    position: absolute;
+    top: 40%;
+    right: -22px;
+}
+

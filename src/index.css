@@ -1,0 +1,85 @@
+:root {
+  --main-color: #0B163F;
+  --main-color-light: #1F2E53;
+  --sec-color: #355CFF;
+  --sec-color-light: #3a75ff;
+  --sec-color-light1: #175cff;
+  --sec-color-light2: #0048f0;
+  --dark1: #d6d5e1;
+  --gray-color: #575757;
+  --gray-color2: #65676d;
+  --gray-color-light: #c0c0c5;
+  --secondary-light: #dcdcdf;
+  --dark-light: #071c4d;
+  --yellow: #ffb116;
+  --section-bcolor: #F8F9FA;
+  --Poppins-font: 'Poppins', sans-serif;
+  --Opensans-font: "Open Sans",sans-serif;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--Poppins-font);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.btnHover:hover {
+  opacity: 0.7;
+}
+
+.sectionContainer {
+  margin: auto;
+  /* padding-left: 115px;
+  padding-right: 115px; */
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media screen and  (max-width: 575.98px) {
+  .sectionContainer {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media screen and  (max-width: 767.98px) {
+  .sectionContainer {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media screen and  (max-width: 991.98px) {
+  .sectionContainer {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media screen and  (max-width: 1199.98px) {
+  .sectionContainer {
+    padding-left: 115px;
+    padding-right: 115px;
+  }
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media screen and  (max-width: 1399.98px) {
+  .sectionContainer {
+    padding-left: 115px;
+    padding-right: 115px;
+  }
+}

@@ -1,0 +1,237 @@
+.header {
+    background-color: var(--main-color);
+    padding-top: 35px;
+    padding-bottom: 90px;
+}
+
+.headerContainer {
+    align-items: center;
+    color: #fff;
+}
+
+.headerTop {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerTopLeft {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerTitle {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+}
+
+.headerDesc {
+    width: 80%;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--dark1);
+    line-height: 1.6;
+    margin: 10px 0px 40px;
+}
+
+.headerForm {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.headerInput,
+.headerSubsBtn {
+    padding: 15px;
+    border: none;
+    font-size: 16px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.headerInput {
+    outline: none;
+    width: 45%;
+}
+
+.headerInput::placeholder {
+    font-size: 14px;
+}
+
+.headerSubsBtn {
+    width: 30%;
+    background-color: var(--sec-color);
+    color: #fff;
+    text-transform: capitalize;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+.headerSubsBtn:hover {
+    background-color: var(--sec-color-light);
+}
+
+.headerTrial {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.headerTrial > div > span {
+    color: var(--dark1);
+}
+
+.headerTrial > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkIcon {
+    font-size: 10px;
+    color: var(--sec-color-light);
+    border: 1px solid var(--sec-color-light);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 3px;
+}
+
+.headerTopRight {
+    flex: 1;
+}
+
+.headerTopRightImg {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.headerTopRightImgMob {
+    width: 20%;
+    position: absolute;
+    top: 70px;
+    left: 0;
+}
+
+.headerTopRightImgLap {
+    width: 80%;
+}
+
+.headerBottom {
+    margin: 130px 200px 0;
+    text-align: center;
+}
+
+.headerCompaniesImgs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px 70px;
+}
+
+.headerCompanyImg {
+    width: 100%;
+    cursor: pointer;
+    filter: brightness(1) invert(1);
+    -webkit-filter: brightness(1) invert(1);
+    transition: all .3s ease-in-out;
+}
+
+.headerCompanyImg:hover {
+    filter: brightness(2) invert(2);
+    -webkit-filter: brightness(2) invert(2);
+}
+
+.headerCompaniesTxt {
+    margin-top: 50px;
+}
+
+.headerCompaniesTxt > span {
+    font-weight: 300;
+}
+/* ----------Media Queries------------- */
+
+@media screen and (max-width: 575.98px) {
+
+}
+
+@media screen and (max-width: 767.98px) {
+    .headerTitle {
+        font-size: 35px;
+    }
+    .headerForm,
+    .headerTrial {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .headerCompaniesImgs {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .headerTop {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .headerTopLeft {
+        text-align: center;
+    }
+    
+    .headerTitle {
+        font-size: 45px;
+    }
+
+    .headerDesc {
+        margin: 20px auto;
+    }
+
+    .headerForm,
+    .headerTrial {
+        justify-content: center;
+    }
+
+    .headerTopRightImg {
+        width: 80%;
+        margin: auto;
+    }
+
+    .headerBottom {
+        margin: 100px auto;
+        text-align: center;
+    }
+    
+    .headerCompaniesImgs {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+    }
+    
+    .headerCompanyImg {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1199.98px) {
+    .headerCompaniesImgs {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+    }
+}
+
+/* @media screen and (max-width: 1399.98px) {
+
+} */

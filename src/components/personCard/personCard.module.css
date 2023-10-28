@@ -1,0 +1,102 @@
+.personCard {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #DEE2E6;
+    padding: 50px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.personCardTop {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.personCardImage {
+    position: relative;
+    z-index: 10;
+}
+
+.personCardImage::before {
+    content: '';
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+                url('../../../public/assets/imgs/dots.svg');
+    background-size: 10px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    z-index: -1;
+}
+
+.personCardImg {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.personCardInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.personCardName {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--Poppins-font);
+    margin: 0 0 6px 0;
+    line-height: 1.2;
+}
+
+.personCardNameTitle {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--Opensans-font);
+    color: var(--gray-color);
+    line-height: 1.75;
+}
+
+.personCardBottom {
+    margin-top: 25px;
+}
+
+.personCardTitle {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--Poppins-font);
+    line-height: 1.2;
+}
+
+.personCardTxt {
+    margin: 5px 0 0 0;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: var(--Poppins-font);
+    line-height: 1.75;
+    color: var(--gray-color);
+}
+
+.personCardRating {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.personCardRatingIcon {
+    color: var(--yellow);
+    font-size: 14px;
+}

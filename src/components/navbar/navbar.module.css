@@ -1,0 +1,127 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: var(--main-color);
+}
+
+.navbarContainer {
+    height: 90px;
+    text-transform: capitalize;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.navbarLogo {
+    flex: 4;
+    display: flex;
+    align-items: center;
+}
+
+.navbarLinks {
+    flex: 8;
+    position: relative;
+    z-index: 1;
+}
+
+.navbarList {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbarListItem {
+    color: var(--dark1);
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.navbarListItem > .home,
+.navbarListItem > .company {
+    /* position: relative;
+    z-index: 1; */
+}
+
+.navbarDownIcon {
+    margin-left: 5px;
+}
+
+.navbarBtns {
+    flex: 4;
+    display: flex;
+    align-items: center;
+}
+
+.navbarSignBtn,
+.navbarGetStartedBtn {
+    font-size: 16px;
+    border: none;
+    padding: 15px 30px;
+    text-transform: capitalize;
+    cursor: pointer;
+    
+}
+.navbarSignBtn {
+    color: var(--dark1);
+    background-color: transparent;
+}
+
+.navbarGetStartedBtn {
+    color: #fff;
+    background-color: var(--sec-color);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.navbarGetStartedBtn:hover {
+    background-color: var(--sec-color-light);
+    transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+}
+
+.navbarListItem:hover,
+.navbarSignBtn:hover {
+    color: var(--sec-color-light);
+    transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+}
+
+/* ----------Media Queries------------- */
+
+@media screen and (max-width: 575.98px) {
+
+}
+
+@media screen and (max-width: 767.98px) {
+
+}
+
+@media screen and (max-width: 991.98px) {
+
+}
+
+@media screen and (max-width: 1199.98px) {
+    .navbarLinks {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1399.98px) {
+
+}

@@ -1,0 +1,213 @@
+.footer {
+    background-color: #fff;
+}
+
+.footerContainer {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    align-items: flex-start;
+    gap: 50px 20px;
+}
+
+.footerLogo {
+    flex: 1.5;
+}
+
+.footerLogoImg {
+    margin-bottom: 10px;
+}
+
+.footerTxt {
+    color: var(--gray-color);
+    opacity: .8;
+    line-height: 1.75;
+    font-family: var(--Opensans-font);
+    font-size: 16px;
+    font-weight: 400;
+    width: 80%;
+}
+
+.footerForm {
+    display: flex;
+    gap: 10px;
+}
+
+.footerFormInput {
+    font-size: 14px;
+    color: var(--gray-color);
+    border: 2px solid rgba(0,0,0,.12);
+    padding: 12px 16px;
+    transition: all .2s ease;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    outline: none;
+}
+
+.footerFormInput:focus {
+    border: 2px solid var(--sec-color-light1);
+}
+
+.footerFormSubmit {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--Poppins-font);
+    padding: 10px 28px;
+    border: 2px solid var(--sec-color-light1);
+    color: #fff;
+    background-color: var(--sec-color-light1);
+    cursor: pointer;
+
+    -webkit-box-shadow: 0 11px 18px -8px rgb(23 92 255 / 60%);
+    box-shadow: 0 11px 18px -8px rgb(23 92 255 / 60%);
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.footerFormSubmit:hover {
+    box-shadow: none;
+}
+
+.footerRating {
+    margin-top: 20px;
+}
+
+.footerRatingTxt {
+    font-weight: 600;
+    color: var(--gray-color);
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.footerRatingIcons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footerRatingIcon {
+    color: var(--yellow);
+    font-size: 14px;
+}
+
+.footerLinks {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.footerLinksBox {
+
+}
+
+.footerLinksTitle {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 36px;
+    color: var(--dark-light);
+}
+
+.footerLinksList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footerLinksListItem {
+    color: var(--gray-color);
+    opacity: .7;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.footerLinksListItem:hover {
+    color: var(--sec-color-light);
+    opacity: 1;
+}
+
+.footerCopyRights {
+    border-top: 1px solid rgba(0,0,0,.05);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footerCopyRightsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.footerCopyRightsTxt {
+    color: var(--gray-color2);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footerCopyRightsDesigner {
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+.footerCopyRightsDesigner:hover {
+    color: var(--sec-color-light);
+}
+
+.footerSocial {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footerSocialIcon {
+    border: 2px solid rgba(0,0,0,.12);
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gray-color2);
+    font-size: 20px;
+
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+.footerSocialIcon:hover {
+    background-color: var(--sec-color-light1);
+    border-color: var(--sec-color-light1);
+    color: #fff;
+}

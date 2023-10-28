@@ -1,0 +1,68 @@
+.works {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.worksTxt {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.worksTxtTitle {
+    font-size: 40px;
+    color: var(--main-color);
+    margin: 0;
+    line-height: 1.3;
+}
+
+.worksTxtDesc {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--gray-color);
+    line-height: 1.75;
+    margin: 0;
+}
+
+.worksItems {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.worksItem {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--gray-color-light);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 50px 40px 50px 50px;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.worksItem:hover {
+    border-color: var(--sec-color);
+}
+
+.worksItemNum {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.worksItemTitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.worksItemInfo {
+    color: var(--gray-color);
+}

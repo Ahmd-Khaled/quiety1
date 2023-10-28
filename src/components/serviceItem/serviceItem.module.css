@@ -1,0 +1,128 @@
+.serviceItem {
+    background-color: var(--main-color-light);
+    padding: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px solid var(--main-color-light);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.serviceItemTop {
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start; */
+}
+
+.serviceItem:hover {
+    border-color: var(--sec-color);
+    background-color: transparent;
+}
+
+.serviceItemIcon {
+    font-size: 25px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.serviceItemTitle {
+    margin: 30px 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.serviceItemTxt1 {
+    margin: 0;
+    line-height: 1.75;
+    font-size: 16px;
+    color: var(--dark1);
+    margin-bottom: 20px;
+}
+
+/* --------------Extra Content------------- */
+.serviceItemExtraTitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin: 18px 0;
+}
+
+.serviceItemExtraListItems {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.serviceItemExtraListItem {
+    color: var(--dark1);
+    font-size: 16px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.serviceItemExtraListItem::before {
+    content: '\f058';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+    margin-top: 3px;
+    color: #F0B018;
+}
+
+/* --------------Extra Content------------- */
+
+.serviceItemLink {
+    color: var(--dark1);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+
+}
+
+.serviceItemLinkA {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.serviceItemLinkIcon {
+    font-size: 14px;
+    padding-left: 4px;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    margin-top: 3px;
+}
+
+
+.serviceItemLink:hover .serviceItemLinkIcon {
+    margin-left: 3px;
+    transform: translateX(3px);
+    -webkit-transform: translateX(3px);
+    -moz-transform: translateX(3px);
+    -ms-transform: translateX(3px);
+    -o-transform: translateX(3px);
+}
+
